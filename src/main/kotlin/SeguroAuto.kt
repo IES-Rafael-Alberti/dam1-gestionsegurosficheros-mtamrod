@@ -1,5 +1,8 @@
 package main.kotlin
 
+import main.kotlin.model.Auto
+import main.kotlin.model.Seguro
+
 class SeguroAuto(numPoliza: Int,
                  dniTitular: String,
                  importe: Double,

@@ -1,5 +1,8 @@
 package main.kotlin
 
+import main.kotlin.model.Riesgo
+import main.kotlin.model.Seguro
+
 class SeguroVida(numPoliza: Int,
                  dniTitular: String,
                  importe: Double,

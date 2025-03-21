@@ -1,0 +1,5 @@
+DUDAS: 
+- Por qué en la función serializar no hay que poner los valores a String con toString() e intellij lo pone como redundante. (src/main/kotlin/model/Seguro)
+- Meter en Utils una funcion format?
+- Preguntar sobre el return hashcode (src/main/kotlin/model/Seguro)
+- Como hacer el equals de usuario (src/main/kotlin/model/Seguro)
