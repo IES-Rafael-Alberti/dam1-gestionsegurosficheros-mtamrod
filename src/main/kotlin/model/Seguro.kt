@@ -1,6 +1,6 @@
 package model
 
-abstract class Seguro(private val numPoliza: Int, private val dniTitular: String, protected val importe: Double):
+abstract class Seguro(val numPoliza: Int, val dniTitular: String, protected val importe: Double):
     IExportable {
     abstract fun calcularImporteAnioSiguiente(interes: Double): Double
     abstract fun tipoSeguro(): String
